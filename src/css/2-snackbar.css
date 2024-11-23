@@ -1,1 +1,46 @@
+.container-snackbar {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.snack-btn {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4e75ff;
+  color: #ffffff;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
+  border-radius: 4px;
+}
+
+legend {
+  margin-right: auto;
+  margin-left: 10px;
+  margin-bottom: 14px;
+}
+
+.delay-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.text-delay {
+  margin-right: auto;
+}
+
+.delay-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+}
