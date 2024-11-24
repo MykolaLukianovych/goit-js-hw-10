@@ -32,6 +32,16 @@ button {
   margin-left: 8px;
 }
 
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:not(:disabled) {
+  background-color: #4e75ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .container-timer input {
   margin: 0;
   border: 1px solid #808080;
@@ -39,4 +49,8 @@ button {
   height: 40px;
   padding-left: 16px;
   width: 65%;
+}
+
+.container-timer input:disabled {
+  cursor: not-allowed;
 }

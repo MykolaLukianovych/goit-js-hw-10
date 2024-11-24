@@ -25,11 +25,12 @@ const options = {
       const now = new Date();
 
       if (selectetDate <= now) {
-          iziToast.error({ title: "Error", message: "Please choose a date in the future" });
+          iziToast.error({ message: "Please choose a date in the future" });
           startButton.disabled = true;
       } else {
           userSelectedDate = selectetDate;
           startButton.disabled = false;
+
       }
 
 
