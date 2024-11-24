@@ -24,6 +24,7 @@ form.addEventListener("submit", (event) => {
         message: `Rejected promise in ${delay}ms`,
       });
     });
+  form.reset();
 });
 
 function createPromise(delay, state) {
@@ -35,6 +36,7 @@ function createPromise(delay, state) {
         reject(delay);
       }
     }, delay);
+
   });
 }
 
