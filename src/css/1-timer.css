@@ -1,1 +1,42 @@
+.container-timer {
+  width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+}
+
+button {
+  width: 75px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  border-radius: 8px;
+  color: #989898;
+  margin-left: 8px;
+}
+
+.container-timer input {
+  margin: 0;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 16px;
+  width: 65%;
+}
